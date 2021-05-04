@@ -1,0 +1,16 @@
+<%- include partials/header-%>
+
+    <h1>Compose</h1>
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="inputTitle">Title</label>
+                    <input type="text" class="form-control" id="inputTitle" name="inputTitle" placeholder="Enter new blog">
+                    
+                    <label for="content">Content</label>
+                    <textarea class="form-control" name="content" id="content" cols="48" rows="10" ></textarea>
+
+                    <button type="submit" class="btn btn-primary">Publish</button>
+                </div>
+            </form>
+
+ <%- include partials/footer-%>
